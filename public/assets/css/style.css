@@ -1,0 +1,41 @@
+.navbar-light {background-color: rgb(187, 179, 179);
+}
+/* .display-4{
+    color: rgb(219, 159, 182);
+} */
+.lead{
+    color:  rgb(218, 103, 147)
+}
+
+.articles-nav{
+    color: white;
+}
+.navbar-collapse{
+    color: white;
+}
+
+.btn-default{
+    color:rgb(233, 230, 230);
+}
+.page-footer {
+    position: absolute;
+    color: rgb(67, 55, 62);
+    width: 100%;
+    bottom: 0;
+    background-color: #b1afb1;
+    padding: 10px;  
+}
+
+
+.jumbotron-fluid {
+    background-image:url("/assets/images/background.jpg");
+    background-size: 100%;
+    background-position: 0px -240px;
+    padding-right: 0;
+    padding-left: 0;
+    border-radius: 0;
+    height: 400px;
+}
+
+
+

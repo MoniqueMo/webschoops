@@ -1,0 +1,41 @@
+<section class="section">
+    <div class="container">
+        <h2 class="title">Your Saved Articles</h2>
+        <div id="saved-results"></div>
+    </div>
+</section>
+
+<!--modals-->
+<div class="modal fade bd-modal-lg" id="comment-modal" tabindex="-1" role="dialog" aria-labelledby="comment-modal" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">comment</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+
+      <div class="modal-body">
+        <div id="comment-inputs">
+             <p>add any comments.</p>
+        </div> 
+
+        <div class="input-group">
+            <div class="input-group-prepend">
+                <span class="input-group-text">Comment Here:</span>
+            </div>
+             <textarea id="new-comment-field" class="form-control" aria-label="With textarea"></textarea>
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" id="save-comment">Save changes</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<script src="/assets/js/saved.js"></script>
