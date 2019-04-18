@@ -1,2 +1,2 @@
-# webschoops
+# webscoops
 a scrapped delveoped app
